@@ -10,7 +10,7 @@ segment .data
 	msj1 db "Ingresa datos en el archivo", 10
 	len_msj1 equ $-msj1
 
-	archivo db "/home/rene/Desktop/ensamblador/archivo.txt"
+	archivo db "/home/alexisrcc19/Documentos/ensamblador/archivo.txt"
 
 segment .bss
 	texto resb 30

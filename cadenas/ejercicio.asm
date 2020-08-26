@@ -1,6 +1,6 @@
 section	.data
-s1 db 'HOLA MUNDO', 0  
-len equ $-s1                
+    s1 db 'HOLA MUNDO', 0  
+    len equ $-s1                
 
 section	.bss
 s2 resb 20                  

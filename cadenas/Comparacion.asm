@@ -14,7 +14,7 @@ section .data
 section .text
     global _start
 
-    _start:
+_start:
     mov esi, c1
     mov edi, c2
     mov ecx, len_c2
@@ -31,14 +31,14 @@ section .text
     jmp exit
     
     ;IGUAL
-    equal:
+equal:
     mov eax, 4
     mov ebx, 1
     mov ecx, msg1
     mov edx, len_msg1
     int 80h
 
-    exit:
+exit:
     mov eax, 1
     mov ebx, 0
     int 80h

@@ -28,7 +28,7 @@
 %endmacro 
 
 section .data
-    nombres DB "Estudiante: Jhon Faver Henao Saldarriaga", 10 
+;    nombres DB "Estudiante: Jhon Faver Henao Saldarriaga", 10 
     len_nombres EQU  $ - nombres 
     
     curso DB "Curso: 6to 'A'", 10 
